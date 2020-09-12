@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ethans-build-agents'
+pool: 'ethans-build-agents'
 
 steps:
 - task: Bash@3
